@@ -13,7 +13,7 @@ const Footer = () => {
               <p className="text[#1A1A1A] text-sm leading-[150%]">ilyas.traikia@yahoo.com</p>
             </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-9">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-9 md:gap-16">
               <div className="services">
                 <h5 className="mb-6 font-bold leading-[120%] text-[#2B303A]">Services</h5>
                 <ul className="text-sm leading-[150%] text-[#4E4B66] grid gap-4">
