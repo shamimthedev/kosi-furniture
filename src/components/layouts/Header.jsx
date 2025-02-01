@@ -1,7 +1,7 @@
-
 import Logo from "../../assets/kosi-logo.png";
 import { IoIosSearch, IoMdCart } from "react-icons/io";
 import { CiUser } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,39 +10,39 @@ const Header = () => {
         <div className="container py-4 ">
           <div className="flex justify-between items-center">
             <div className="nav-logo max-w-32">
-              <img className="w-full" src={Logo} alt="Kosi logo" />
+              <img className="w-full" src={Logo} alt="logo" />
             </div>
             <div className="nav-links">
               <ul className="hidden md:flex sm:space-x-4 lg:space-x-10 font-secondary font-bold text-primary">
                 <li>
-                  <a className="hover:text-secondary duration-200" href="/">
+                  <Link className="hover:text-secondary duration-200" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="hover:text-secondary duration-200" href="/">
+                  <Link className="hover:text-secondary duration-200" to="/">
                     Shop
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="hover:text-secondary duration-200" href="/">
+                  <Link className="hover:text-secondary duration-200" to="/">
                     Products
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="hover:text-secondary duration-200" href="/">
+                  <Link className="hover:text-secondary duration-200" to="/">
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="hover:text-secondary duration-200" href="/">
+                  <Link className="hover:text-secondary duration-200" to="/">
                     Pages
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="hover:text-secondary duration-200" href="/">
+                  <Link className="hover:text-secondary duration-200" to="/">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
