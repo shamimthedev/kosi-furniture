@@ -1,18 +1,17 @@
-import Product1 from '../../assets/product-1.png';
-import Product2 from '../../assets/product-2.png';
 import Product3 from '../../assets/product-3.png';
 import Product4 from '../../assets/product-4.png';
-import Product5 from '../../assets/product-5.png';
 import Product6 from '../../assets/product-6.png';
 import Product from '../Product';
 
 const products = [
-  { id: 1, title: "Casual T-Shirt", price: 7, oldPrice: 12, src: Product1, category: "Clothing" },
-  { id: 2, title: "Running Shoes", price: 50, oldPrice: 80, src: Product2, category: "Footwear" },
-  { id: 3, title: "Sport Jacket", price: 30, oldPrice: 45, src: Product3, category: "Sportswear", badgeText: "-20%", className: "bg-[#4FBF59]" },
-  { id: 4, title: "Backpack", price: 25, oldPrice: 35, src: Product4, category: "Accessories", badgeText: "-20%", className: "bg-[#4FBF59]" },
-  { id: 5, title: "Wireless Earbuds", price: 45, oldPrice: 60, src: Product5, category: "Electronics" },
-  { id: 6, title: "Smart Watch", price: 120, oldPrice: 150, src: Product6, category: "Wearable Tech" },
+  { id: 1, title: "Sport Jacket", price: 30, oldPrice: 45, src: Product3, category: "Sportswear", badgeText: "-20%", className: "bg-[#4FBF59]" },
+  { id: 2, title: "Backpack", price: 25, oldPrice: 35, src: Product4, category: "Accessories", badgeText: "-20%", className: "bg-[#4FBF59]" },
+  { id: 3, title: "Smart Watch", price: 120, oldPrice: 150, src: Product6, category: "Wearable Tech" },
+  { id: 4, title: "Smart Watch", price: 120, oldPrice: 150, src: Product6, category: "Wearable Tech" },
+  { id: 5, title: "Sport Jacket", price: 30, oldPrice: 45, src: Product3, category: "Sportswear", badgeText: "-20%", className: "bg-[#4FBF59]" },
+  { id: 6, title: "Backpack", price: 25, oldPrice: 35, src: Product4, category: "Accessories", badgeText: "-20%", className: "bg-[#4FBF59]" },
+  { id: 7, title: "Smart Watch", price: 120, oldPrice: 150, src: Product6, category: "Wearable Tech" },
+  { id: 8, title: "Smart Watch", price: 120, oldPrice: 150, src: Product6, category: "Wearable Tech" },
 ];
 
 const TopPicks = () => {

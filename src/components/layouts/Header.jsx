@@ -46,7 +46,7 @@ const Header = () => {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <div className="nav-logo max-w-32">
-              <img className="w-full" src={Logo} alt="logo" />
+              <Link to={'/'}><img className="w-full" src={Logo} alt="logo" /></Link>
             </div>
 
             {/* Navigation Links */}
