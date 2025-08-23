@@ -1,3 +1,4 @@
+// src/components/pages/Home.jsx
 import Hero from "../layouts/Hero";
 import TopPicks from "../layouts/TopPicks";
 import NewArrival from "../layouts/NewArrival";
