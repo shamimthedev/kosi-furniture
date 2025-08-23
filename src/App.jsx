@@ -1,13 +1,10 @@
-import { ToastContainer } from "react-toastify";
+// src/App.jsx
 import Home from "./components/pages/Home";
-// import Cart from "./components/Cart";
-import 'react-toastify/dist/ReactToastify.css'; // Import styles
 
 const App = () => {
   return (
     <>
       <Home />
-      <ToastContainer />
     </>
   );
 };
